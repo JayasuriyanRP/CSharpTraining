@@ -14,6 +14,9 @@ namespace PayRollClient
             Console.Write("Id: ");
             int id = int.Parse(Console.ReadLine());
 
+            Console.Write("Project Name: ");
+            string projName = Console.ReadLine();
+
             Console.Write("Basic Pay: ");
             decimal basicPay = decimal.Parse(Console.ReadLine());
 
@@ -24,7 +27,7 @@ namespace PayRollClient
             decimal hraPay = decimal.Parse(Console.ReadLine());
 
             //2. creating an instance of employee class by invoking parameterized constructor and passing the values to it
-            Employee employeeReference = new Employee(id, name, basicPay, daPay, hraPay);
+            Employee employeeReference = new Employee(id, name, basicPay, daPay, hraPay, projName);
 
             //3. returning the reference to the Main method
             return employeeReference;
@@ -34,11 +37,14 @@ namespace PayRollClient
             //calling CreateEmployee method to create an instance of an employee class
             Employee employee = CreateEmployee();
 
+            //resetting the project name
+            employee.ProjectName = "CITA";
+
             //calling CalculateSalary method to calculate salary
             decimal totalSalary = employee.CalculateSalary();
 
             //printing total salary
-            Console.WriteLine($"Total Salary: {totalSalary}");
+            Console.WriteLine($"Total Salary of {employee.EmployeeName} is {totalSalary}");
         }
     }
 }
