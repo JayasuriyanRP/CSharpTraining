@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Test</name>
+    </assembly>
+    <members>
+        <member name="T:TestLibrary.Messenger">
+            <summary>
+            Class with methods to greet
+            </summary>
+        </member>
+        <member name="M:TestLibrary.Messenger.SayHello(System.String)">
+            <summary>
+            Method to return welcome message for a person provided the name is supplied
+            </summary>
+            <param name="name">
+            name of the person to send the welcome mesage to
+            </param>
+            <returns>
+            returns the welcome message to that person
+            </returns>
+        </member>
+    </members>
+</doc>

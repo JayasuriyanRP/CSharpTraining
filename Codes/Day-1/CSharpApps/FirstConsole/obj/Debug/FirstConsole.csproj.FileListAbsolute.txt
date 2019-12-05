@@ -1,0 +1,11 @@
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-1\CSharpApps\FirstConsole\bin\Debug\FirstConsole.exe.config
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-1\CSharpApps\FirstConsole\bin\Debug\FirstConsole.exe
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-1\CSharpApps\FirstConsole\bin\Debug\FirstConsole.pdb
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-1\CSharpApps\FirstConsole\obj\Debug\FirstConsole.csproj.CoreCompileInputs.cache
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-1\CSharpApps\FirstConsole\obj\Debug\FirstConsole.exe
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-1\CSharpApps\FirstConsole\obj\Debug\FirstConsole.pdb
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-1\CSharpApps\FirstConsole\obj\Debug\FirstConsole.csprojAssemblyReference.cache
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-1\CSharpApps\FirstConsole\bin\Debug\CalculatorLibrary.dll
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-1\CSharpApps\FirstConsole\bin\Debug\CalculatorLibrary.pdb
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-1\CSharpApps\FirstConsole\bin\Debug\CalculatorLibrary.xml
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-1\CSharpApps\FirstConsole\obj\Debug\FirstConsole.csproj.CopyComplete

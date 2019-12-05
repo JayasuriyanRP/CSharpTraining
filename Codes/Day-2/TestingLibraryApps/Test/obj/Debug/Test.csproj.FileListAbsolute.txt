@@ -1,0 +1,7 @@
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-2\TestingLibraryApps\Test\bin\Debug\Test.dll
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-2\TestingLibraryApps\Test\bin\Debug\Test.pdb
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-2\TestingLibraryApps\Test\obj\Debug\Test.csprojAssemblyReference.cache
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-2\TestingLibraryApps\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-2\TestingLibraryApps\Test\obj\Debug\Test.dll
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-2\TestingLibraryApps\Test\obj\Debug\Test.pdb
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-2\TestingLibraryApps\Test\bin\Debug\Test.xml

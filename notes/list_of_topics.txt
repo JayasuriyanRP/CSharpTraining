@@ -1,0 +1,57 @@
+1. .NET Platform
+	a. .NET Framework
+		1. CLR
+		2. BCL/FCL
+		3. ASP.NET
+		4. ADO.NET
+	b. .NET Products
+2. .NET Versions and Languages
+3. Structure of simple C# application
+4. Compilation and execution using commands
+5. Assembly
+	a. IL Code
+	b. Assembly Manifest
+	c. Type Metadata
+	d. Resources
+	e. Headers - CLR Header and Win32 Header
+6. C# Basics
+	a. Data Types - value and reference type
+	extra: nullable data type
+	b. data type conversion - implicit and explicit
+		1. Value type to value type 
+		2. RT to RT
+		3. VT to RT
+	c. Convert and its methods
+	d. Parse of data types (int.Parse())
+	e. casting
+	f. casting with checked keyword
+7. expressions (control flow statements)
+	a. if..else
+	b. switch...case
+	c. while
+	d. do...while
+	e. for
+	f. foreach
+	g. break
+	h. continue
+
+8. Operators
+	a. arithmatic: +, -, *, /, %
+	b. logical: && and ||
+	c. equality: ==, !=
+	d. relational: >,<,>=,<=
+	e. ++, --
+	1. unary
+	2. binary
+	3. ternary (?:)
+
+	int a = 0;
+	a++;
+	
+	int a = 10;
+	int b = 20;
+	//int c = a+b;
+	int c = a > b? a : b;
+
+	?? (null coalesce)
+	

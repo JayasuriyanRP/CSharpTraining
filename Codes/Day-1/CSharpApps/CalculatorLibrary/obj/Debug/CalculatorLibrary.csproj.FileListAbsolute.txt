@@ -1,0 +1,7 @@
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-1\CSharpApps\CalculatorLibrary\bin\Debug\CalculatorLibrary.xml
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-1\CSharpApps\CalculatorLibrary\bin\Debug\CalculatorLibrary.dll
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-1\CSharpApps\CalculatorLibrary\bin\Debug\CalculatorLibrary.pdb
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-1\CSharpApps\CalculatorLibrary\obj\Debug\CalculatorLibrary.csprojAssemblyReference.cache
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-1\CSharpApps\CalculatorLibrary\obj\Debug\CalculatorLibrary.csproj.CoreCompileInputs.cache
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-1\CSharpApps\CalculatorLibrary\obj\Debug\CalculatorLibrary.dll
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-1\CSharpApps\CalculatorLibrary\obj\Debug\CalculatorLibrary.pdb

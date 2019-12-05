@@ -1,0 +1,11 @@
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-2\TestingLibraryApps\TestClient\bin\Debug\TestClient.exe.config
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-2\TestingLibraryApps\TestClient\bin\Debug\TestClient.exe
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-2\TestingLibraryApps\TestClient\bin\Debug\TestClient.pdb
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-2\TestingLibraryApps\TestClient\bin\Debug\Test.dll
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-2\TestingLibraryApps\TestClient\bin\Debug\Test.pdb
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-2\TestingLibraryApps\TestClient\bin\Debug\Test.xml
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-2\TestingLibraryApps\TestClient\obj\Debug\TestClient.csprojAssemblyReference.cache
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-2\TestingLibraryApps\TestClient\obj\Debug\TestClient.csproj.CoreCompileInputs.cache
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-2\TestingLibraryApps\TestClient\obj\Debug\TestClient.csproj.CopyComplete
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-2\TestingLibraryApps\TestClient\obj\Debug\TestClient.exe
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-2\TestingLibraryApps\TestClient\obj\Debug\TestClient.pdb

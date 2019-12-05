@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CalculatorLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:CalculatorLibrary.Calculator">
+            <summary>
+            class containing methods for calculation such as: addition, subtraction, multiplication and division
+            </summary>
+        </member>
+        <member name="M:CalculatorLibrary.Calculator.Add(System.Int32,System.Int32)">
+            <summary>
+            method to add any two integer type numbers
+            </summary>
+            <param name="firstNumber">first number</param>
+            <param name="secondNumber">second number</param>
+            <returns>
+            returns result of addition of two numbers
+            </returns>
+        </member>
+        <member name="M:CalculatorLibrary.Calculator.Subtract(System.Int32,System.Int32)">
+            <summary>
+            method to subtract an integer type number from another
+            </summary>
+            <param name="firstNumber">first number</param>
+            <param name="secondNumber">second number</param>
+            <returns>
+            returns result of subtraction of two numbers
+            </returns>
+        </member>
+        <member name="M:CalculatorLibrary.Calculator.Multiply(System.Int32,System.Int32)">
+            <summary>
+            method to multiply any two integer type numbers
+            </summary>
+            <param name="firstNumber">first number</param>
+            <param name="secondNumber">second number</param>
+            <returns>
+            returns result of multiplication of two numbers
+            </returns>
+        </member>
+        <member name="M:CalculatorLibrary.Calculator.Divide(System.Int32,System.Int32)">
+            <summary>
+            method to divide an integer type number by another
+            </summary>
+            <param name="firstNumber">first number</param>
+            <param name="secondNumber">second number</param>
+            <returns>
+            returns result of division of two numbers
+            </returns>
+        </member>
+    </members>
+</doc>

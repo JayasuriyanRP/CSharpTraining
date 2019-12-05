@@ -1,0 +1,215 @@
+.NET Technology/Platform:
+
+.NET Framework:
+	a. .NET Franework/Base class library (FCL/BCL)
+	b. Common Language Runtime (CLR)
+	c. Active Server Pages.NET (ASP.NET)
+	d. ActiveX Data Object.NET (ADO.NET)
+	e. User Interface
+
+.NET Products:
+	a. Visual Studio
+	b. Blend 
+	c. Visual Studio Code
+	d. Sql Server
+	
+Languages:
+	a. C# .NET
+	b. VB.NET
+	c. VC++.NET
+	d. VJ#.NET
+	e. Ruby 
+	d. Python
+	f. C++
+year	Frame	CLR	VS	C#
+2002	1.0	1.0	1.0	1.0
+2003	1.1	1.1	1.1	1.1
+2005	2.0	2.0	2.0	2.0
+2007	3.0	2.0	---	3.0
+2008	3.5	2.0	3.5	3.5
+2010	4.0	4.0	4.0	4.0
+2012	4.5.1	4.0	2012	4.5
+2013	4.5.2	4.0	2013	5
+2015	4.6	4.0	2015	6
+2017	4.7	4.0	2017	7
+2019	4.8	4.0	2019	7/8
+
+.NET Framework	.NET Standard	.NET Core Framework
+				C# Core
+				ASP.NET Core
+				EF Core
+
+Command:
+>csc /t:exe CalculatorApp.cs (if Main)
+>csc /t:library CalculatorApp.cs (if no Main)
+
+Assembly:
+Output file (.exe/.dll) -- PE file 
+
+Parts:
+1. IL Code
+2. Assembly Manifest: Information about the application (such as name, version, copyright etc)
+3. Type Metadata: Information about the code written
+4. Resources (optional): any external resource file such as image, audio, video files etc.
+5. Headers:
+	a. CLR Header (Framework version no, digital signature etc.)
+	b. Win32 Header (info of type of application, some OS DLLs information)
+
+		Data Types
+-------------------------------------------------
+	Value Type		Reference Type
+-----------------------------------------------------
+built-in	user-defined  built-in	user-defined
+byte		struct		string	class
+sbyte		enum		array	interface
+short				object	delegate
+ushort					event					
+int
+uint
+
+long
+ulong
+
+char
+bool
+
+float	float f = 12.34F;
+decimal decimal d = 12.34M;
+double  double d1 = 12.34D/12.34;
+
+DateTime  DateTime dt1 = new DateTime(2019,12,4);
+TimeSpan  DateTime dt2 = new DateTime(2019,12,3);
+
+TimeSpan ts = dt2-dt1; 
+or 
+TimeSpan ts = dt2.Subtract(dt1);
+
+
+Conversion:
+
+
+
+long l1 = 1234567890123;
+int a1 = l1;
+
+VT-->VT conversions:
+
+Implicit:
+int a =10;
+long l = a;
+
+Explicit:
+long l1 = 1234567890123;
+//int a1 = (int)l1;-->casting: will not throw exception
+int a1 = checked((int)l1);<--will throw exception
+//int a1 = Convert.ToInt32(l1);//<--Convert --will throw exception
+
+RT-->RT:
+Conversion:
+
+
+VT<-->RT
+Conversion:
+VT-->RT --> implicit
+
+int a = 10;
+string a1 = a.ToString();
+
+VT<--RT --> Explicit
+
+string first ="12";
+
+//convert anything to int, use ToInt32() method of Convert class
+int firstValue = Convert.ToInt32(first);
+
+//convert only string type to other (int) use Parse method
+int firstValue = int.Parse(first); 
+
+int firstValue =(int)first;<--not possible
+
+		MENU
+-------------------------------
+
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+
+Enter Choice[1/2/3/4]: 1
+
+Calling Add method
+Enter Number: 10
+Enter Number: 20
+Addition of 10 and 20 is 30
+
+Would you like to continue[Enter y/Y/n/N]: y
+			
+		MENU
+-------------------------------
+
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+
+Enter Choice[1/2/3/4]: 2
+
+Calling Subtract method
+Enter Number: 20
+Enter Number: 10
+Subtraction of 20 and 10 is 10
+
+Would you like to continue[Enter y/Y/n/N]: N
+
+int a =10;
+int b = 20;
+
+if(a>b)
+{
+   Console.WriteLine("a is greater");
+}   
+else
+{
+  Console.WriteLine("b is greater");
+}
+
+int a = 5;
+
+while(a>0)
+{
+  c.wl(a);
+  a--;
+}
+
+do{
+  c.wl(a);
+  a--;
+}while(a>0);
+
+c.wl();
+string ch = Console.ReadLine();
+
+char choice = char.Parse(ch);
+
+if(char.IsLower(choice))
+  choice = char.ToUpper(choice);
+
+switch(choice)
+{
+    case 'A':
+        c.wl(choice);
+        break; 
+
+    case 'B':
+         c.wl(choice);
+         break;
+
+     default:
+         c.wl("enter proper value");
+         break;    
+}
+
+
+
+
+

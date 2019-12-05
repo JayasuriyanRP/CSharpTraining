@@ -1,0 +1,7 @@
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-1\CSharpApps\SecondConsole\bin\Debug\SecondConsole.exe.config
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-1\CSharpApps\SecondConsole\bin\Debug\SecondConsole.exe
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-1\CSharpApps\SecondConsole\bin\Debug\SecondConsole.pdb
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-1\CSharpApps\SecondConsole\obj\Debug\SecondConsole.csproj.CoreCompileInputs.cache
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-1\CSharpApps\SecondConsole\obj\Debug\SecondConsole.exe
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-1\CSharpApps\SecondConsole\obj\Debug\SecondConsole.pdb
+E:\Siemens\CSharpBasics_4thDecember2019\Codes\Day-1\CSharpApps\SecondConsole\obj\Debug\SecondConsole.csprojAssemblyReference.cache
