@@ -32,19 +32,52 @@ namespace PayRollClient
             //3. returning the reference to the Main method
             return employeeReference;
         }
+
+        static int GetRecordCount()
+        {
+            Console.Write("how many records?");
+            int records = int.Parse(Console.ReadLine());
+            return records;
+        }
+
+        static void StoreEmployee(Employee[] employees)
+        {
+            for (int index = 0; index < employees.Length; index++)
+            {
+                //calling CreateEmployee method to create an instance of an employee class
+                Employee employee = CreateEmployee();
+                employees[index] = employee;
+            }
+        }
+
+        static void CalculateAndPrintSalary(Employee[] employees)
+        {
+            for (int index = 0; index < employees.Length; index++)
+            {
+                Employee employeeRef = employees[index];
+                //calling CalculateSalary method to calculate salary
+                decimal totalSalary = employeeRef.CalculateSalary();
+
+                //printing total salary
+                Console.WriteLine($"Total Salary of {employeeRef.EmployeeName} is {totalSalary}");
+            }
+        }
         static void Main()
         {
-            //calling CreateEmployee method to create an instance of an employee class
-            Employee employee = CreateEmployee();
+            //1. ask user about number of employee records
+            int recordNumber = GetRecordCount();
+
+            //2. creating an array to store the references of employee objects to be created
+            Employee[] employees = new Employee[recordNumber];
+
+            //3. storing references of employee objects
+            StoreEmployee(employees);
 
             //resetting the project name
-            employee.ProjectName = "CITA";
+            //employee.ProjectName = "CITA";
 
-            //calling CalculateSalary method to calculate salary
-            decimal totalSalary = employee.CalculateSalary();
-
-            //printing total salary
-            Console.WriteLine($"Total Salary of {employee.EmployeeName} is {totalSalary}");
+            //4. calculate salary of every employee and print the same
+            CalculateAndPrintSalary(employees);
         }
     }
 }
