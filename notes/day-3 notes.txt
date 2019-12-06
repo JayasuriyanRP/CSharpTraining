@@ -1,0 +1,45 @@
+new features:
+2005 (2.0):
+generic class and generic collection class
+static class
+
+
+2007 (3.0):
+a. implicitly typed local variable (var x = 10)
+b. implicitly typed array
+
+traditional: 
+int[] arr = new int[]{1,2,3};
+
+implicitly typed:
+var arr = new []{1,2,3};
+
+c. object initializer
+Person anil = new Person { Name="anil"};
+
+d. Collection initializer
+List<Person> people = new List<Person>{anil};
+
+e. auto-implemented property
+class Account
+    {
+        public Account()
+        {
+
+        }
+        public Account(string name, int accId)
+        {
+            AccountName = name;
+            AccountId = accId;
+        }
+        public string AccountName { get; set; }
+        public int AccountId { get; private set; }
+    }
+
+f. anonymous type
+var joy = new { FirstName = "joydip" };
+
+g. lambda expression
+
+2008 (3.5):
+a. LINQ
