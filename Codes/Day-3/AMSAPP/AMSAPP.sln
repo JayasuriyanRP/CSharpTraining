@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountLibrary", "AccountLibrary\AccountLibrary.csproj", "{2A455FA9-2C81-46D3-A44E-1AF2B85FFA92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountManagerApp", "AccountManagerApp\AccountManagerApp.csproj", "{FC794C25-664F-462E-8051-FEFFE3DF3360}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A455FA9-2C81-46D3-A44E-1AF2B85FFA92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A455FA9-2C81-46D3-A44E-1AF2B85FFA92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A455FA9-2C81-46D3-A44E-1AF2B85FFA92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A455FA9-2C81-46D3-A44E-1AF2B85FFA92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC794C25-664F-462E-8051-FEFFE3DF3360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC794C25-664F-462E-8051-FEFFE3DF3360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC794C25-664F-462E-8051-FEFFE3DF3360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC794C25-664F-462E-8051-FEFFE3DF3360}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7A2F8D5-3936-477F-9CDE-F0EF9A1E388A}
+	EndGlobalSection
+EndGlobal
