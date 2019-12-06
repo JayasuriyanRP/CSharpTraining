@@ -2,6 +2,8 @@ new features:
 2005 (2.0):
 generic class and generic collection class
 static class
+anonymous method
+anonymous delegate
 
 
 2007 (3.0):
